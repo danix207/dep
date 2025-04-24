@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recettes de cuisine</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="css/style.css">
+
+
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">🍽 My kitchen</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">À propos de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="recettes.html">Nos recettes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="avis.html">Notes et avis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html">Équipe</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contacts</a>
+              </li>
+              
+              
+              
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!--NOS RECETTES-->
+
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    header {
+      background-color: #000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 26px;
+      font-weight: bold;
+      flex: 0 0 auto;
+    }
+
+    .navbar-brand {
+      font-size: 22px;
+      color: rgb(13, 13, 13);
+      margin-left: 20px;
+      margin-top: 10px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      text-decoration: none;
+    }
+
+    nav {
+      background-color: #f4eded;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    /* Augmenter la taille des continents */
+    nav:first-of-type a {
+      font-size: 20px; /* Plus gros */
+      padding: 10px 15px;
+      font-weight: bold; /* En gras */
+    }
+
+    /* Supprimer le gras des onglets en dessous */
+    nav:nth-of-type(2) a {
+      font-weight: normal;
+    }
+
+    nav a {
+      color: rgb(1, 1, 1);
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    nav a:hover {
+      background-color: #333;
+    }
+
+    .carousel-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .carousel {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      align-items: center;
+    }
+
+    .carousel img {
+      width: 60vw;
+      height: 70vh;
+      object-fit: cover;
+      margin: 0 10px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s;
+    }
+
+    .carousel img.side {
+      width: 45vw;
+      opacity: 0.5;
+      transform: scale(0.85);
+      transition: all 0.5s ease-in-out;
+    }
+
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="index.html" class="navbar-brand fw-bold"></a>
+  <header>Recettes du Monde 🍽</header>
+  
+ 
+ 
+
+  <nav>
+    <a href="Recettes Africains.html">Afrique</a>
+    <a href="Recettes Asiatiques.html">Asie</a>
+    <a href="Recettes Européens.html">Europe</a>
+    <a href="Recettes Américains.html">Amérique</a>
+    <a href="Recettes Océaniens.html">Océanie</a>
+    <a href="Recettes D'antarctique.html">Eurasie</a>
+  </nav>
+
+  
+
+  <div class="image-container">
+    <!-- Ajout des images avec effet de mise en avant -->
+    <div class="recipe-card">
+      <img src="1.jpeg" alt="Recette 1">
+      <a href="recette1.html" class="view-recipe">Voir la recette</a>
+    </div>
+    <div class="recipe-card">
+      <img src="9.jpeg" alt="Recette 2">
+      <a href="recette2.html" class="view-recipe">Voir la recette</a>
+    </div>
+    <div class="recipe-card">
+      <img src="17.jpeg" alt="Recette 3">
+      <a href="recette3.html" class="view-recipe">Voir la recette</a>
+    </div>
+    <div class="recipe-card">
+      <img src="25.jpeg" alt="Recette 4">
+      <a href="recette4.html" class="view-recipe">Voir la recette</a>
+    </div>
+    <div class="recipe-card">
+      <img src="33.jpeg" alt="Recette 5">
+      <a href="recette5.html" class="view-recipe">Voir la recette</a>
+    </div>
+    <div class="recipe-card">
+      <img src="7.jpeg" alt="Recette 6">
+      <a href="recette6.html" class="view-recipe">Voir la recette</a>
+    </div>
+    <div class="recipe-card">
+      <img src="11.jpeg" alt="Recette 7">
+      <a href="recette7.html" class="view-recipe">Voir la recette</a>
+    </div>
+    <div class="recipe-card">
+      <img src="20.jpeg" alt="Recette 8">
+      <a href="recette8.html" class="view-recipe">Voir la recette</a>
+    </div>
+    <div class="recipe-card">
+      <img src="29.jpeg" alt="Recette 9">
+      <a href="recette9.html" class="view-recipe">Voir la recette</a>
+    </div>
+    <div class="recipe-card">
+      <img src="8.jpeg" alt="Recette 10">
+      <a href="recette10.html" class="view-recipe">Voir la recette</a>
+    </div>
+    <div class="recipe-card">
+      <img src="11.jpeg" alt="Recette 11">
+      <a href="recette11.html" class="view-recipe">Voir la recette</a>
+    </div>
+    <div class="recipe-card">
+      <img src="15.jpeg" alt="Recette 12">
+      <a href="recette12.html" class="view-recipe">Voir la recette</a>
+    </div>
+    <div class="recipe-card">
+      <img src="13.jpeg" alt="Recette 11">
+      <a href="recette11.html" class="view-recipe">Voir la recette</a>
+    </div>
+    <div class="recipe-card">
+      <img src="8.jpeg" alt="Recette 12">
+      <a href="recette12.html" class="view-recipe">Voir la recette</a>
+    </div>
+  </div>
+
+  <footer>&copy; 2025 - Mon site de recettes.</footer>
+
+ 
+  
+
+  <div class="carousel-container">
+    <div class="carousel" id="carousel"></div>
+  </div>
+
+  <footer>&copy; 2025 - Mon site de recettes.</footer>
+
+  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poulet Mayo - RDC</title>
+  <style>
+    /* Fond blanc pour toute la page */
+    body {
+      background-color: white;
+      color: black;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    /* Image centrée */
+    img {
+      display: block;
+      margin: 0 auto;
+      height: 400px;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: white;
+    }
+
+    /* Conteneur de la recette avec bande noire */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: black;
+      color: white;
+      border-radius: 8px;
+    }
+
+    .ingredients, .instructions {
+      margin-bottom: 20px;
+    }
+
+    .ingredients ul, .instructions ul {
+      padding-left: 20px;
+    }
+
+    .ingredients li, .instructions li {
+      margin-bottom: 10px;
+    }
+
+    .instructions li {
+      font-size: 16px;
+    }
+
+    /* Bouton d'impression blanc */
+    .print-button {
+      display: block;
+      width: 200px;
+      margin: 20px auto;
+      padding: 10px;
+      text-align: center;
+      background-color: white;
+      color: black;
+      font-size: 18px;
+      border: 2px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .print-button:hover {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="8.jpeg" alt="Image Introuvable">
+
+  <div class="container">
+    <h1>Poulet Mayo - Plat Congolais RDC 🍽</h1>
+
+    <div class="ingredients">
+      <h2>Ingrédients :</h2>
+      <ul>
+        <li>1 kg de poulet (cuisses ou ailes)</li>
+        <li>2 oignons émincés</li>
+        <li>1 poivron rouge coupé en lanières</li>
+        <li>2 gousses d’ail écrasées</li>
+        <li>2 cuillères à soupe de moutarde</li>
+        <li>200 g de mayonnaise</li>
+        <li>1 cube de bouillon</li>
+        <li>1 cuillère à soupe de paprika</li>
+        <li>1 cuillère à café de poivre</li>
+        <li>Huile d’arachide</li>
+        <li>Sel au goût</li>
+      </ul>
+    </div>
+
+    <div class="instructions">
+      <h2>Instructions :</h2>
+      <ul>
+        <li>1. Faire mariner le poulet avec la moutarde, le poivre, le paprika et le cube de bouillon.</li>
+        <li>2. Griller le poulet sur un feu de bois ou au four à 200°C pendant 30-40 min.</li>
+        <li>3. Dans une poêle, faire revenir les oignons, l’ail et le poivron.</li>
+        <li>4. Mélanger le poulet grillé avec la mayonnaise et les légumes sautés.</li>
+        <li>5. Servir chaud avec du chikwangue ou des bananes plantains frites.</li>
+      </ul>
+    </div>
+
+    <button class="print-button" onclick="window.print()">Imprimer la recette</button>
+  </div>
+
+</body>
+</html>

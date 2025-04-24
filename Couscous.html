@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Couscous - Afrique du Nord</title>
+  <style>
+    /* Fond blanc pour toute la page */
+    body {
+      background-color: white;
+      color: black;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    /* Image centrée */
+    img {
+      display: block;
+      margin: 0 auto;
+      height: 400px;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: white;
+    }
+
+    /* Conteneur de la recette avec bande noire */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: black;
+      color: white;
+      border-radius: 8px;
+    }
+
+    .ingredients, .instructions {
+      margin-bottom: 20px;
+    }
+
+    .ingredients ul, .instructions ul {
+      padding-left: 20px;
+    }
+
+    .ingredients li, .instructions li {
+      margin-bottom: 10px;
+    }
+
+    .instructions li {
+      font-size: 16px;
+    }
+
+    /* Bouton d'impression blanc */
+    .print-button {
+      display: block;
+      width: 200px;
+      margin: 20px auto;
+      padding: 10px;
+      text-align: center;
+      background-color: white;
+      color: black;
+      font-size: 18px;
+      border: 2px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .print-button:hover {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="5.jpeg" alt="Image Introuvable">
+
+  <div class="container">
+    <h1>Couscous (Afrique du Nord) – Semoule de blé accompagnée de légumes et de viande 🍽</h1>
+
+    <div class="ingredients">
+      <h2>Ingrédients :</h2>
+      <ul>
+        <li>500 g de semoule de blé</li>
+        <li>300 g de viande d'agneau ou de poulet</li>
+        <li>3 carottes coupées en dés</li>
+        <li>2 courgettes tranchées</li>
+        <li>200 g de pois chiches</li>
+        <li>1 oignon émincé</li>
+        <li>2 tomates coupées en dés</li>
+        <li>1 cuillère à soupe de concentré de tomate</li>
+        <li>Épices : ras el hanout, cumin, coriandre</li>
+        <li>500 ml d'eau</li>
+        <li>Huile d'olive, sel et poivre</li>
+      </ul>
+    </div>
+
+    <div class="instructions">
+      <h2>Instructions :</h2>
+      <ul>
+        <li>1. Faire revenir la viande avec l'oignon et les épices dans l'huile.</li>
+        <li>2. Ajouter les tomates, le concentré de tomate et laisser mijoter 10 min.</li>
+        <li>3. Incorporer les légumes et les pois chiches, verser l'eau et laisser cuire 40 min.</li>
+        <li>4. Préparer la semoule à la vapeur et égrainer avec un peu d'huile d'olive.</li>
+        <li>5. Servir chaud avec la viande et les légumes.</li>
+      </ul>
+    </div>
+
+    <button class="print-button" onclick="window.print()">Imprimer la recette</button>
+  </div>
+
+</body>
+</html>

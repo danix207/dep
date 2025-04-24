@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site de Recettes</title>
+  <style>
+    /* Fond de toute la page en blanc */
+    body {
+      background-color: white;
+      color: black;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    /* Style de l'image centrée */
+    img {
+      display: block;
+      margin: 0 auto;
+      height: 400px;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: white;
+    }
+
+    /* Conteneur de la recette avec bande noire */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: black;
+      color: white;
+      border-radius: 8px;
+    }
+
+    .ingredients, .instructions {
+      margin-bottom: 20px;
+    }
+
+    .ingredients ul, .instructions ul {
+      padding-left: 20px;
+    }
+
+    .ingredients li, .instructions li {
+      margin-bottom: 10px;
+    }
+
+    .instructions li {
+      font-size: 16px;
+    }
+
+    /* Bouton d'impression blanc */
+    .print-button {
+      display: block;
+      width: 200px;
+      margin: 20px auto;
+      padding: 10px;
+      text-align: center;
+      background-color: white;
+      color: black;
+      font-size: 18px;
+      border: 2px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .print-button:hover {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="2.jpeg" alt="Image Introuvable">
+
+  <div class="container">
+    <h1>Attiéké (Côte d'Ivoire) – Semoule de manioc servie avec du poisson, du poulet ou de la viande 🍽</h1>
+
+    <div class="ingredients">
+      <h2>Ingrédients :</h2>
+      <ul>
+        <li>1 kg de poisson (tilapia, carpe ou autre)</li>
+        <li>500 g d'Attiéké</li>
+        <li>2 à 3 oignons hachés</li>
+        <li>2 tomates coupées en dés</li>
+        <li>2 cuillères à soupe de concentré de tomate</li>
+        <li>1 poivron vert coupé en dés</li>
+        <li>1 à 2 piments (facultatif)</li>
+        <li>2 à 3 cuillères à soupe d'huile</li>
+        <li>1 cube de bouillon</li>
+        <li>1 cuillère à soupe de gingembre râpé</li>
+        <li>Sel et poivre au goût</li>
+      </ul>
+    </div>
+
+    <div class="instructions">
+      <h2>Instructions :</h2>
+      <ul>
+        <li>Nettoyer et mariner le poisson.</li>
+        <li>Faire revenir les oignons, tomates et poivron.</li>
+        <li>Cuire l'Attiéké à la vapeur.</li>
+        <li>Frire le poisson et mélanger avec la sauce.</li>
+        <li>Servir l'Attiéké avec le poisson et sa sauce.</li>
+      </ul>
+    </div>
+
+    <button class="print-button" onclick="window.print()">Imprimer la recette</button>
+  </div>
+
+</body>
+</html>

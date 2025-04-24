@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moules-Frites - Plat Belge</title>
+  <style>
+    /* Fond blanc pour toute la page */
+    body {
+      background-color: white;
+      color: black;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    /* Image centrée */
+    img {
+      display: block;
+      margin: 0 auto;
+      height: 400px;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: white;
+    }
+
+    /* Conteneur de la recette avec bande noire */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: black;
+      color: white;
+      border-radius: 8px;
+    }
+
+    .ingredients, .instructions {
+      margin-bottom: 20px;
+    }
+
+    .ingredients ul, .instructions ul {
+      padding-left: 20px;
+    }
+
+    .ingredients li, .instructions li {
+      margin-bottom: 10px;
+    }
+
+    .instructions li {
+      font-size: 16px;
+    }
+
+    /* Bouton d'impression blanc */
+    .print-button {
+      display: block;
+      width: 200px;
+      margin: 20px auto;
+      padding: 10px;
+      text-align: center;
+      background-color: white;
+      color: black;
+      font-size: 18px;
+      border: 2px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .print-button:hover {
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="10.jpeg" alt="Image Introuvable">
+
+  <div class="container">
+    <h1>Moules-frites (Belgique) – Moules cuites à la marinière accompagnées de frites croustillantes 🍽</h1>
+
+    <div class="ingredients">
+      <h2>Ingrédients :</h2>
+      <ul>
+        <li>1 kg de moules</li>
+        <li>500 g de pommes de terre</li>
+        <li>2 échalotes finement hachées</li>
+        <li>2 gousses d’ail écrasées</li>
+        <li>1 bouquet de persil frais haché</li>
+        <li>250 ml de vin blanc sec</li>
+        <li>50 g de beurre</li>
+        <li>Huile pour la friture</li>
+        <li>Sel et poivre au goût</li>
+      </ul>
+    </div>
+
+    <div class="instructions">
+      <h2>Instructions :</h2>
+      <ul>
+        <li>1. Nettoyer les moules sous l’eau froide et retirer les impuretés.</li>
+        <li>2. Faire fondre le beurre dans une grande casserole et y faire revenir l’échalote et l’ail.</li>
+        <li>3. Ajouter les moules, verser le vin blanc et couvrir. Cuire à feu vif pendant environ 5 minutes.</li>
+        <li>4. Secouer la casserole pour répartir la chaleur et s’assurer que toutes les moules s’ouvrent.</li>
+        <li>5. Éplucher et couper les pommes de terre en frites. Les faire frire dans de l’huile chaude jusqu’à ce qu’elles soient dorées.</li>
+        <li>6. Servir les moules avec le jus de cuisson et accompagner de frites croustillantes.</li>
+      </ul>
+    </div>
+
+    <button class="print-button" onclick="window.print()">Imprimer la recette</button>
+  </div>
+
+</body>
+</html>
